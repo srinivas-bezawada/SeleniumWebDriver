@@ -1,0 +1,34 @@
+	
+	//a[contains(text(),'Krishna Institute')]/self::a			//for self tag
+	
+parent tafg--a[contains(text(),'Krishna Institute')]/parent::td
+
+
+//rediff mail checkavailability button xpath--possibilities
+
+
+//input[@value='Check availability']/self::input
+
+//label[contains(text(),'Choose a Rediffmail ID')]//parent::div/following-sibling::div[1]/child::input			--USING axes
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+//a[contains(text(),'Krishna Institute')]/ancestor::tr/descendant::td		---descendant
+
+//a[contains(text(),'Krishna Institute')]/following::*			---following
+
+
+//a[contains(text(),'Krishna Institute')]/ancestor::td/following-sibling::*				--following-sibling
+
+//a[contains(text(),'Krishna Institute')]/ancestor::td/preceding::*				--preceding element
+
+//a[contains(text(),'Krishna Institute')]/ancestor::tr/preceding-sibling::*			--preceding-sibling
+
+
+//face \book signup page submit button xpath
+
+//div[@id='reg_form_box']/child::div[11]/button
+
+
+
+
+https://testautomationpractice.blogspot.com/				--automation website practice page

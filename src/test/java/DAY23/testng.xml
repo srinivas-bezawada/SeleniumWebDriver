@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite" parallel="tests">
+  <test  name="EdgeTest1">
+  	<!-- instead of giving manully the driver to run,we can write separate tests so that we can
+  	run on all the browsers mentioned below-->
+  	<parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="DAY23.ParamTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="ChromeTest2">
+  	<!-- instead of giving manully the driver to run,we can write separate tests so that we can
+  	run on all the browsers mentioned below-->
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="DAY23.ParamTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

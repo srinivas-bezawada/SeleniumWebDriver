@@ -1,0 +1,2 @@
+cd C:\Users\tally\Desktop\Disney\workspace_java\SeleniumWebdriver
+mvn test
